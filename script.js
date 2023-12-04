@@ -1,5 +1,5 @@
     // Set the date we're counting down to
-    var countDownDate = new Date(Date.UTC(2023, 11, 08, 09, 00, 00));
+    var countDownDate = new Date(Date.UTC(2023, 11, 08, 10, 00, 00));
 
     var dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
     document.querySelector('.when-on').innerHTML = countDownDate.toLocaleDateString("en-UK", dateOptions);
